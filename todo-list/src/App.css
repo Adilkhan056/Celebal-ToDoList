@@ -1,0 +1,79 @@
+*{
+  padding-top: 10px;
+  background-color: rgb(176, 196, 196);
+}
+.todo-list {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px  rgb(176, 196, 196);
+  background-color: white;
+}
+.form{
+  background-color: white;
+}
+.change{
+  background-color: white;
+}
+
+.todo-list h1 {
+  text-align: center;
+  background-color: white;
+}
+
+.todo-list form {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.todo-list input {
+  flex-grow: 1;
+  padding: 5px;
+  margin-right: 10px;
+  background-color: white;
+}
+
+.todo-list button {
+  padding: 5px 10px;
+  background-color: white;
+  cursor: pointer;
+}
+.todo-list button:hover{
+  background-color:  rgb(176, 196, 196);
+}
+
+.todo-list ul {
+  list-style-type: none;
+  padding: 0;
+  
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+
+}
+
+.todo-list li.completed span {
+  text-decoration: line-through;
+}
+
+.todo-list li span {
+  cursor: pointer;
+}
+
+.todo-list li button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.todo-list li button:hover {
+  background-color: darkred;
+}
